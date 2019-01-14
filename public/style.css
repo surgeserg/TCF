@@ -1,0 +1,32 @@
+body {
+	/*Reset*/
+	margin: 0;
+}
+
+#side-nav {
+	position: absolute;
+	z-index: 1;
+	overflow-x: hidden;
+	/*border: 1px solid;  Simply to show object being manipulated, omit later. */
+	width: 0;
+	background-color: #333;
+	transition: 1s;
+	height: 100%;
+}
+
+.options {
+	list-style-type: none;
+	/*position: sticky;*/
+	width: 150px;
+}
+
+a {
+	/*Remove auto-underline property for links*/
+	text-decoration: none;
+	color: white;
+}
+
+.exit {
+	float: right;
+	color: white;
+}

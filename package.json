@@ -1,0 +1,17 @@
+{
+  "name": "TCF",
+  "version": "0.0.1",
+  "description": "Private eCommerce",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log('Hello');"
+  },
+  "author": [
+    "Sergio Sanchez",
+    "Josh Spradling"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
