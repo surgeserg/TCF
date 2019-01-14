@@ -7,3 +7,5 @@ const openNav = () => {
 const closeNav = () => {
 	navigation.style.width = '0';
 }
+
+var a = 'Test variable';
