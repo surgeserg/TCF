@@ -8,18 +8,23 @@
 		<div id="side-nav">
 			<ul class="options">
 				<li class="exit" onclick="closeNav()">&times;</li>
-				<li><a href="" class="test">Home</a></li>
-				<li><a href="">All Brands</a></li>
-				<li><a href="">All Categories</a></li>
-				<li><a href="">Profile</a></li>
-				<li><a href="">Log Out</a></li>
+				<li><a href="" class="side-nav-butn">Home</a></li>
+				<li><a href="" class="side-nav-butn">All Brands</a></li>
+				<li><a href="" class="side-nav-butn">All Categories</a></li>
+				<li><a href="" class="side-nav-butn">Profile</a></li>
+				<li><a href="" class="side-nav-butn">Log Out</a></li>
 			</ul>
 		</div>
 		<button onclick="openNav()">Open</button>
 
 		<script src="front-end.js" type="text/javascript"></script>
 		<script>
-			document.getElementsByTagName('a').addEventListener('click', event => event.preventDefault());
+			// Prevent reloading page when a button is clicked.
+			const buttons = document.querySelectorAll('.side-nav-butn');
+
+			buttons.forEach(value => {
+				value.addEventListener('click', event => event.preventDefault());
+			});
 		</script>
 	</body>
 </html>

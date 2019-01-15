@@ -16,7 +16,7 @@ body {
 
 .options {
 	list-style-type: none;
-	/*position: sticky;*/
+	position: sticky;
 	width: 150px;
 }
 
