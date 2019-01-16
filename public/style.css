@@ -27,6 +27,9 @@ a {
 }
 
 .exit {
-	float: right;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	/*float: right;*/
 	color: white;
 }
